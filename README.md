@@ -2,6 +2,7 @@
 This repository contains the basics of Python Framework-Django which includes the normal views and Class-based Views.
 
 Below are the initial steps to start:-
+
 	1. To set up project:-
 	django-admin startproject 'project-name'
 	
