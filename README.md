@@ -23,4 +23,7 @@ Below are the initial steps to start:-
 	Before this, make sure that the new Application is also added to the `settings page` under Installed Apps section
 	
 	7. Next Command:- python manage.py migrate
+	
+# URL for testing:-
+	127.0.0.1:8000
 
