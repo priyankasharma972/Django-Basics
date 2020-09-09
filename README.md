@@ -18,7 +18,7 @@ Below are the initial steps to start:-
 	python manage.py startapp 'app-name'
 	
 	6. After adding the models.py run the below command:-
-  python manage.py makemigrations
+  	python manage.py makemigrations
 	Before this, make sure that the new Application is also added to the `settings page` under Installed Apps section
 	
 	7. Next Command:- python manage.py migrate
