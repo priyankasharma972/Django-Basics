@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+
+{%block content%}
+<h1>Hello World</h1>
+{{request.user.is_authenticated}}
+<p>
+    {{my_id}},{{my_num}}
+</p>
+<ul>
+{%for my_item in my_list%}
+    <li>{{my_item}}</li>
+{% endfor %}
+</ul>
+
+{{new_html|striptags|slugify}} <! Adding Filters Example –> 
+{% endblock %}
